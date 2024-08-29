@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: black;
+}
+
+table{
+    width: 100%;
+}
+
+table tr{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+
+table tr th{
+    width: 150px;
+}
+
+#main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: 30px;
+}
+
+.bloco{
+    background-color: red;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+}
