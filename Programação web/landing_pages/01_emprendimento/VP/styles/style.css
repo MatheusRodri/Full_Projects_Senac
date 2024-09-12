@@ -38,7 +38,7 @@ section.cover-form{
 .bg{
     position: relative;
     height: 560px;
-    background-image: url('../imagens/bg-form.jpg');
+    background-image: url('../../imagens/bg-form.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -63,4 +63,141 @@ section.cover-form{
     color: black;
     font-size: 18px;
     background-color: rgb(210,210,210);
+}
+
+
+.form-container form{
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.form-container form p{
+    font-size: 14px;
+    color: #525252;
+}
+
+.form-wrapper:not(:first-child){
+    margin-top: 40px;
+}
+
+.form-wrapper:last-child{
+    margin-top: 20px;
+}
+
+
+.form-container form input[type=text]{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 10px;
+}
+
+.form-container form input[type=submit]{
+    background-color: #033c50;
+    text-transform: uppercase;
+    color: rgb(210, 210, 210);
+    width: 100%;
+    font-size: 21px;
+    height: 50px;
+    cursor: pointer;
+    border: 0;
+}
+
+.form-container form input[type=submit]:hover{
+    background-color: #055a78;
+    border-bottom: 3px solid #033c50;
+    color: white;
+    font-weight: bold;
+}
+
+
+section.chamada{
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+section.chamada div.container{
+    background-color: #29526d;
+    padding: 70px 0 50px 0;
+}
+
+.icone-seta{
+    position: absolute;
+    left:50%;
+    top:-32px;
+    width: 64px;
+    height: 64px;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    background-size: 100% 100%;
+    background-image: url("../../imagens/arrow.png");
+}
+
+
+
+section.chamada h2{
+    width: 98%;
+    max-width: 700px;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+section.chamada p{
+    width: 98%;
+    max-width: 700px;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    margin-top: 6px;
+    font-weight: normal;
+}
+
+.flex-mosaico{
+    display: flex;
+}
+
+.item-1-mosaico{
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+}
+
+.item-2-mosaico{
+    background-color: #4683AB;
+    padding: 90px 40px;
+    width: 40%;
+}
+
+.item-2-mosaico p{
+    color: white;
+}
+
+footer{
+    background-color: rgb(201, 130, 64);
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+footer img{
+    width: 130px;
+}
+
+footer p{
+    text-align: center;
+    color:black;
+    font-size: 12px;
+    width: 98px;
+    margin-top: 10px;
 }
