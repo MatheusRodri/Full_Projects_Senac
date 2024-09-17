@@ -178,26 +178,20 @@ section.chamada p{
     color: white;
 }
 
-footer{
-    background-color: rgb(201, 130, 64);
-}
-
-footer div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 10px;
+footer .container{ /* Observe que esta é uma regra específica para o div container dentro do footer */
+	text-align: center;
+	padding: 20px 0;
+	background-color:rgb(220,220,220);
 }
 
 footer img{
-    width: 130px;
+	width: 130px;
 }
 
 footer p{
-    text-align: center;
-    color:black;
-    font-size: 12px;
-    width: 98px;
-    margin-top: 10px;
+	text-align: center;
+	color: black;
+	font-size: 12px;
+	width: 98%;
+	margin-top: 10px;
 }
