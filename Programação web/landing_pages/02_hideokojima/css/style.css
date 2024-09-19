@@ -1,0 +1,142 @@
+:root {
+    --main-color: #191919;
+    --text-color: #c5c7c7;
+    --text-color-2: white;
+    --highlight-color: #324bcb;
+    --text-size-title: 250px;
+    --text-size-subtitle: 50px;
+    --text-size-links: 20px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--main-color);
+    width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header img{
+    height: 90px;
+    width: 90px;
+}
+
+header div{
+    display: flex;
+
+}
+
+header div p{
+    color: var(--text-color);
+    font-size: var(--text-size-links);
+    padding: 0 30px;
+    text-transform: uppercase;
+    font-family: "Rajdhan",system-ui;
+}
+
+
+header div a{
+    font-size: var(--text-size-links);
+    padding: 0 30px;
+    text-transform: uppercase;
+    font-family: "Rajdhan",system-ui;
+    color: blue;
+    text-decoration: none;
+}
+
+header div p:hover{
+    color: var(--text-color-2);
+}
+header div a:hover{
+    color: var(--text-color-2);
+}
+
+
+main{
+
+    position: relative;
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+    background-image: url("/image/kojima.png");
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+}
+
+main .left{
+    height: 80vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+main .left h1{
+    color: var(--text-color);
+    font-size: var(--text-size-title);
+    font-family: "Bebas Neue",system-ui;
+    display: inline-block;
+    margin-bottom: -50px;
+}
+main .left p {
+    color: var(--highlight-color);
+    font-size: var(--text-size-subtitle);
+    font-family: "Rajdhan",system-ui;
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+
+.left .line-blue{
+    background-color: var(--highlight-color);
+    width: 50%;
+    height: 15px;
+}
+main .right{
+    width: 25%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+main .canto{
+    display: flex;
+    align-items: center;
+}
+
+main .right img{
+    height: 120px;
+    width: 120px;
+    margin-right: 30px;
+}
+
+main .right p:first-child{
+        color: var(--text-color);
+        font-family: "Bebas Neue",system-ui;
+        font-size: var(--text-size-subtitle);
+}
+main .right p:last-child{
+    color: var(--highlight-color);
+    font-family: "Rajdhan",system-ui;
+    font-size: 20px;
+}
+
+main .right p:last-child:hover{
+    color: var(--text-color-2);
+}
