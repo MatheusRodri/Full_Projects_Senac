@@ -29,6 +29,7 @@ header{
 header img{
     height: 90px;
     width: 90px;
+    filter: invert();
 }
 
 header div{
