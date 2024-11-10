@@ -1,0 +1,14 @@
+CSS - variáveis de cor
+
+  --color-primary-1: #8BC34A;
+  --color-primary-2: #8BC34AA6;
+
+  --color-neutral-1: #f8fafc;
+  --color-neutral-2: #24232b;
+  --color-neutral-3: #13121a;
+
+fonte: Roboto Mono - Google Fonts
+
+No HTML
+ícone: font awesome - fa-copy
+buscar o CDN Font Awesome para inserir antes do style.css

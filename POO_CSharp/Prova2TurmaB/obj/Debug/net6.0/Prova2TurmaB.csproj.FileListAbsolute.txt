@@ -1,0 +1,15 @@
+C:\projects\Senac\POO\Prova2TurmaB\bin\Debug\net6.0\Prova2TurmaB.exe
+C:\projects\Senac\POO\Prova2TurmaB\bin\Debug\net6.0\Prova2TurmaB.deps.json
+C:\projects\Senac\POO\Prova2TurmaB\bin\Debug\net6.0\Prova2TurmaB.runtimeconfig.json
+C:\projects\Senac\POO\Prova2TurmaB\bin\Debug\net6.0\Prova2TurmaB.dll
+C:\projects\Senac\POO\Prova2TurmaB\bin\Debug\net6.0\Prova2TurmaB.pdb
+C:\projects\Senac\POO\Prova2TurmaB\obj\Debug\net6.0\Prova2TurmaB.csproj.AssemblyReference.cache
+C:\projects\Senac\POO\Prova2TurmaB\obj\Debug\net6.0\Prova2TurmaB.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Senac\POO\Prova2TurmaB\obj\Debug\net6.0\Prova2TurmaB.AssemblyInfoInputs.cache
+C:\projects\Senac\POO\Prova2TurmaB\obj\Debug\net6.0\Prova2TurmaB.AssemblyInfo.cs
+C:\projects\Senac\POO\Prova2TurmaB\obj\Debug\net6.0\Prova2TurmaB.csproj.CoreCompileInputs.cache
+C:\projects\Senac\POO\Prova2TurmaB\obj\Debug\net6.0\Prova2TurmaB.dll
+C:\projects\Senac\POO\Prova2TurmaB\obj\Debug\net6.0\refint\Prova2TurmaB.dll
+C:\projects\Senac\POO\Prova2TurmaB\obj\Debug\net6.0\Prova2TurmaB.pdb
+C:\projects\Senac\POO\Prova2TurmaB\obj\Debug\net6.0\Prova2TurmaB.genruntimeconfig.cache
+C:\projects\Senac\POO\Prova2TurmaB\obj\Debug\net6.0\ref\Prova2TurmaB.dll

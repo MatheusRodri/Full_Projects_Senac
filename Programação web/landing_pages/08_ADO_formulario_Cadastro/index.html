@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+<body>
+    <main>
+        <h1>Formulario de cadastro</h1>
+
+        <form>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+
+                    <input type="text" name="nome" placeholder="Nome" >
+                    <input type="text" name="sobrenome" placeholder="Sobrenome" >
+                    <input type="text" name="nome" placeholder="CPF" >
+                    <input type="date" name="date" placeholder="Data de Nascimento" >
+                    <input type="email" name="email" placeholder="E-mail" >
+            </fieldset>
+
+            <fieldset>
+                <legend>Endereço de entrega</legend>
+                <input type="text" name="cep" placeholder="Cep" > 
+                <input type="text" name="rua" placeholder="Rua" >
+                <input type="text" name="numero" placeholder="Numero" >
+                <input class="campo-grande" type="text" name="complemento" placeholder="Complemento" >
+                <input type="text" name="bairro" placeholder="Bairro" >
+                <input type="text" name="cidade" placeholder="Cidade" >
+                <input type="text" name="estado" placeholder="Estado" >
+                <select name="countries" id="countries">
+                    <option value="brasil">Brasil</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="canada">Canadá</option>
+                    <option value="estados-unidos">Estados Unidos</option>
+                    <option value="franca">França</option>
+                    <option value="alemanha">Alemanha</option>
+                    <option value="espanha">Espanha</option>
+                    <option value="italia">Itália</option>
+                    <option value="japao">Japão</option>
+                    <option value="china">China</option>
+                    <option value="india">Índia</option>
+                    <option value="australia">Austrália</option>
+                    <option value="russia">Rússia</option>
+                    <option value="africa-do-sul">África do Sul</option>
+                    <option value="mexico">México</option>
+                    <option value="reino-unido">Reino Unido</option>
+                    <option value="portugal">Portugal</option>
+                    <option value="suecia">Suécia</option>
+                    <option value="paises-baixos">Países Baixos</option>
+                    <option value="belgica">Bélgica</option>
+                </select>
+
+            </fieldset>
+
+            <button>Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
