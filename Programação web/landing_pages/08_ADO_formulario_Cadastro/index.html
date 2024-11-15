@@ -1,63 +1,94 @@
+<!--Falta: 00:00:00 -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_br">
+
 <head>
     <meta charset="UTF-8">
-    <title>Formulario</title>
-    <link rel="stylesheet" href="./styles/index.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar um ponto de coleta</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
 
 </head>
+
 <body>
-    <main>
-        <h1>Formulario de cadastro</h1>
+    <div id="page-create-point">
 
-        <form>
-            <fieldset>
-                <legend>Dados pessoais</legend>
+        <header>
+            <h1>
+                EcoTech
+            </h1>
+           
+        </header>
 
-                    <input type="text" name="nome" placeholder="Nome" >
-                    <input type="text" name="sobrenome" placeholder="Sobrenome" >
-                    <input type="text" name="nome" placeholder="CPF" >
-                    <input type="date" name="date" placeholder="Data de Nascimento" >
-                    <input type="email" name="email" placeholder="E-mail" >
-            </fieldset>
+        <form action="">
+            <h1>Cadastro do usuário</h1>
 
             <fieldset>
-                <legend>Endereço de entrega</legend>
-                <input type="text" name="cep" placeholder="Cep" > 
-                <input type="text" name="rua" placeholder="Rua" >
-                <input type="text" name="numero" placeholder="Numero" >
-                <input class="campo-grande" type="text" name="complemento" placeholder="Complemento" >
-                <input type="text" name="bairro" placeholder="Bairro" >
-                <input type="text" name="cidade" placeholder="Cidade" >
-                <input type="text" name="estado" placeholder="Estado" >
-                <select name="countries" id="countries">
-                    <option value="brasil">Brasil</option>
-                    <option value="argentina">Argentina</option>
-                    <option value="canada">Canadá</option>
-                    <option value="estados-unidos">Estados Unidos</option>
-                    <option value="franca">França</option>
-                    <option value="alemanha">Alemanha</option>
-                    <option value="espanha">Espanha</option>
-                    <option value="italia">Itália</option>
-                    <option value="japao">Japão</option>
-                    <option value="china">China</option>
-                    <option value="india">Índia</option>
-                    <option value="australia">Austrália</option>
-                    <option value="russia">Rússia</option>
-                    <option value="africa-do-sul">África do Sul</option>
-                    <option value="mexico">México</option>
-                    <option value="reino-unido">Reino Unido</option>
-                    <option value="portugal">Portugal</option>
-                    <option value="suecia">Suécia</option>
-                    <option value="paises-baixos">Países Baixos</option>
-                    <option value="belgica">Bélgica</option>
-                </select>
+                <legend>
+                    <h2>Dados do participante</h2>
+                </legend>
+
+                <div class="field">
+                    <label for="name">Nome do participante</label>
+                    <input type="text" name="name">
+                </div>
+
+                <div class="field-group">
+                    <div class="field">
+                        <label for="address">Endereço</label>
+                        <input type="text" name="address">
+                    </div>
+                    <div class="field">
+                        <label for="numero">Número/Complemento</label>
+                        <input type="text" name="address">
+                    </div>
+                </div>
+
+                <div class="field-group">
+                    <div class="field">
+                        <label for="state">Estado</label>
+                        <select name="uf">
+                            <option>Selecione o estado</option>
+
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="city">Estado</label>
+                        <select name="city" disabled>
+                            <option>Selecione a cidade</option>
+
+                        </select>
+
+                        <input type="hidden" name="state">
+                    </div>
+
+                </div>
 
             </fieldset>
 
-            <button>Enviar</button>
+
+            <button type="submit">Cadastrar no EcoTech</button>
         </form>
-    </main>
+    </div>
+
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script src="./scripts/create-point.js"></script>
 </body>
 </html>
