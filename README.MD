@@ -15,3 +15,10 @@ O projeto se trata de um repositório na qual contém o que é ensinado nas aula
 - Programação_web
   - Para rodar o projeto de Programação Web, é necessário ter o Visual Studio Code instalado na máquina.
   - Após a instalação do Visual Studio Code, basta abrir a pasta do projeto e executar o arquivo .html no navegador de sua preferência.
+
+- Kotlin
+  - Projetos desenvolvidos durante as aulas de programação para dispositivos móveis
+  - Para rodar o projeto de Kotlin, é necessario, uma IDE ou Editor de código ( Recomendo o IntelliJ)
+  - Entre na pasta Kotlin:
+  - Escolha o arquivo
+  - clique em executar(shift + F10)
